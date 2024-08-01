@@ -1,0 +1,21 @@
+nav{
+    position: relative;
+    width: 100vw;
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    position: absolute;
+    outline: 1px solid red;
+    width: 200px;
+    height: 80px;
+    left: 50px;
+}
+.redesS{
+    position: absolute;
+    outline: 1px solid green;
+    width: 100px;
+    height: 80px;
+    right: 50px;
+}
