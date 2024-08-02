@@ -7,7 +7,7 @@ nav{
     justify-content: space-between;
     padding: 20px 50px;
 }
-.logo{font-size: 3em;font-weight: bolder;}
+.logo{font-size: 3em;font-weight: bolder;color: gainsboro;}
 .redesS{
     display: flex;
     align-items: center;
@@ -21,9 +21,10 @@ nav{
 }
 .iconInstagram{background-image: url(../src/icon/iconInstagram.svg);}.iconFacebook{background-image: url(../src/icon/iconFacebook.svg);}.iconNewX{background-image: url(../src/icon/iconNewX.svg);}.iconWhatsapp{background-image: url(../src/icon/iconWhatsapp.svg);}
 
-@media(max-width: 710px){
+@media(max-width: 600px){
     nav{
         justify-content: center;
+        flex-direction: column;
         padding: 20px ;
         gap: 10px;
     }
