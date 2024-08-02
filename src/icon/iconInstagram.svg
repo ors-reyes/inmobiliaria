@@ -1,0 +1,10 @@
+<svg version="1.1" id="iconInstagram" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 80 80" style="enable-background:new 0 0 80 80;" xml:space="preserve">
+<style type="text/css">
+	.iconInstagram{fill:gainsboro;}
+</style>
+<path class="iconInstagram" d="M23.64,0C10.6,0,0,10.6,0,23.64v32.73C0,69.4,10.6,80,23.64,80h32.73C69.4,80,80,69.4,80,56.36
+	V23.64C80,10.6,69.4,0,56.36,0H23.64z M61.82,14.55c2,0,3.64,1.64,3.64,3.64s-1.64,3.64-3.64,3.64s-3.64-1.64-3.64-3.64
+	S59.82,14.55,61.82,14.55z M40,20c11.04,0,20,8.96,20,20s-8.96,20-20,20s-20-8.96-20-20S28.96,20,40,20z M40,23.64
+	c-9.02,0-16.36,7.35-16.36,16.36S30.98,56.36,40,56.36S56.36,49.02,56.36,40S49.02,23.64,40,23.64z"/>
+</svg>
