@@ -48,7 +48,6 @@
     transform: translateX(-50%);
     position: absolute;
     bottom: 0;
-    /* background-color: rgba(255, 255, 0, 0.5); */
     background-image: url(../src/png/ediPresentacion.png);
     background-position: center bottom;
     background-size: contain;
@@ -78,13 +77,11 @@
         height: 80px;
         color: gainsboro;
         font-size: 3em;
-        font-weight: bolder;
-        /* outline: 1px solid red; */
+        font-weight: bolder;        
         display: block;
         z-index: 2;
     }
-    .nav object{
-        /* outline: 1px solid red; */
+    .nav object{        
         position: absolute;
         height: 50px;
         right: 10%;
@@ -97,10 +94,9 @@
         bottom: 0;
     }
 }
-@media screen and (min-width: 1366px) {
+@media screen and (min-width: 1300px) {
     .apasitos{
         display: block;
-        /* background-color: rgba(255, 0, 255, 0.5); */
         width: 220px;
         height: calc(100% - 260px);
         background-image: url(../src/png/sliderCerca.svg);
@@ -110,7 +106,6 @@
         margin-left: 10%;
     }
     .preSlider{
-        /* background-color: rgba(255, 0, 0, 0.5); */
         display: block;
         width: 40%;
         height: calc(100% - 160px);
@@ -120,7 +115,6 @@
         justify-content: space-between;
     }
     .sliderPres{
-        /* background-color: rgba(0, 255, 0, 0.5); */
         width: calc(100% - 160px);
         height: 100%;
         display: flex;
@@ -140,7 +134,6 @@
         object-fit: contain;
     }
     .sliderBtn{
-        /* background-color: rgba(0, 0, 255, 0.5); */
         width: 135px;
         height: 100%;
         background-image: url(../src/png/sliderPhoto.svg);
@@ -157,6 +150,3 @@
         background-position: 40% bottom;
     }
 }
-/* @media screen and (min-width: 1440px) {}
-@media screen and (min-width: 2560px) {} */
-/* 640x288 */
