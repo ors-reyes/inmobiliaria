@@ -13,7 +13,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border-bottom: 1px solid gainsboro;
+    border-bottom: 1px solid blue;
 }
 .logo{
     display: none;
@@ -41,9 +41,11 @@
 .edificio{
     width: 100%;
     min-width: 300px;
-    height: calc(100% - 50px);
+    height: calc(95% - 50px);
     margin-left: 50%;
     transform: translateX(-50%);
+    position: absolute;
+    bottom: 0;
     /* background-color: rgba(255, 255, 0, 0.5); */
     background-image: url(../src/png/ediPresentacion.png);
     background-position: bottom center;
