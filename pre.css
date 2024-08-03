@@ -1,7 +1,7 @@
 .presentacion{
     width: 100vw;
     height: 100vh;
-    background-image: url(./src/fondo.png);
+    background-image: url(./src/fondo2.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: left bottom;
@@ -9,7 +9,7 @@
 }
 .nav{
     width: 100vw;
-    height: 80px;
+    height: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -27,7 +27,7 @@
 .nav object{
     outline: 1px solid red;
     position: absolute;
-    height: 80px;
+    height: 50px;
     /* right: 50px; */
 }
 .cajamutal{
@@ -37,12 +37,26 @@
     justify-content: center;
     align-items: center;
     position: absolute;
-    outline: 1px solid green;
     bottom: 0;
+    outline: 1px solid green;
     
 }
 .cajamutal object{
     width: 100%;
     max-width: 600px;
+    position: absolute;
+    bottom: 0;
+    z-index: 1;
     /* height: 80px; */
+}
+.edificio{
+    outline: 1px solid yellow;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    width: 25%;
+    min-width: 300px;
+    height: calc(100vh - 50px);
+    background-image: url(./src/png/ediPresentacion.png);
+    background-size: contain;
+    background-repeat: no-repeat;
 }
