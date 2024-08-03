@@ -1,9 +1,0 @@
-<svg version="1.1" id="iconNewX" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 80 80" style="enable-background:new 0 0 80 80;" xml:space="preserve">
-<style type="text/css">
-	.iconNewX{fill:gainsboro;}
-</style>
-<path class="iconNewX" d="M13.33,0C5.97,0,0,5.97,0,13.33v53.33C0,74.03,5.97,80,13.33,80h53.33C74.03,80,80,74.03,80,66.67V13.33
-	C80,5.97,74.03,0,66.67,0H13.33z M17.31,17.14h15.12L43.16,32.4l13.03-15.26h4.76L45.31,35.45l19.29,27.4H49.48l-12.46-17.7
-	L21.9,62.86h-4.76L34.87,42.1L17.31,17.14z M24.6,20.95l26.87,38.1h5.84l-26.87-38.1H24.6z"/>
-</svg>

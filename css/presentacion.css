@@ -1,9 +1,47 @@
 .presentacion{
+    position: absolute;
     width: 100vw;
     height: 100vh;
     background-color: rgba(255, 0, 0, 0.5);
 }
+.ediPNG{
+    height: 100vh;
+    position: absolute;
+    bottom: 0;
+    outline: 1px solid red;
+    background-image: url(../src/png/ediPresentacion.png);
+    background-repeat: no-repeat;
+    background-position: 400px bottom;
+    background-size: contain;
+    position: relative;
+    z-index: 2;
+}
 /* .todoApasos{} */
-/* .ediPNG{} */
 /* .slides{} */
 /* .slideBTN{} */
+.slideFooter{
+    width: 300px;
+    min-height: 35px;
+    position: absolute;
+    bottom: 0;
+    z-index: 3;
+    background-image: url(../src/png/sliderFooter.svg);
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+@media(max-width: 800px){
+    .ediPNG{
+        height:calc(100% - 180px);
+        position: absolute;
+        top: 180px;
+        left: 50px;
+        outline: 1px solid red;
+        background-image: url(../src/png/ediPresentacion.png);
+        background-repeat: no-repeat;
+        background-position: 0px bottom;
+        background-size: contain;
+        position: relative;
+        z-index: 2;
+    }
+}

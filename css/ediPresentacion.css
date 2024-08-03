@@ -1,4 +1,7 @@
 nav{
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100vw;
     height: 170px;
     display: flex;
@@ -9,6 +12,7 @@ nav{
 }
 .logo{font-size: 3em;font-weight: bolder;color: gainsboro;}
 .redesS{
+    z-index: 3;
     display: flex;
     align-items: center;
     justify-content: center;
