@@ -15,20 +15,11 @@
     align-items: center;
 }
 .logo{
-    position: absolute;
-    left: 50px;
-    height: 80px;
-    color: gainsboro;
-    font-size: 4em;
-    font-weight: bolder;
-    outline: 1px solid red;
     display: none;
 }
 .nav object{
-    outline: 1px solid red;
     position: absolute;
     height: 50px;
-    /* right: 50px; */
 }
 .cajamutal{
     width: 100vw;
@@ -38,8 +29,6 @@
     align-items: center;
     position: absolute;
     bottom: 0;
-    outline: 1px solid green;
-    
 }
 .cajamutal object{
     width: 100%;
@@ -47,21 +36,83 @@
     position: absolute;
     bottom: 0;
     z-index: 1;
-    /* height: 80px; */
 }
 .edificio{
-    outline: 1px solid yellow;
     margin-left: 50%;
     transform: translateX(-50%);
     width: 100%;
     min-width: 300px;
     height: calc(100vh - 50px);
+    /* background-color: rgba(255, 255, 0, 0.5); */
     background-image: url(../src/png/ediPresentacion.png);
     background-position: bottom center;
     background-size: contain;
     background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
-@media screen and (min-width: 768px) {}
+.apasitos{
+    display: none;
+}
+.preSlider{
+    display: none;
+}
+
+@media screen and (min-width: 667px) {
+    .apasitos{
+        display: block;
+        /* background-color: rgba(255, 0, 255, 0.5); */
+        width: 220px;
+        height: calc(100% - 260px);
+        background-image: url(../src/png/sliderCerca.svg);
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin-left: 20px;
+    }
+    .preSlider{
+        /* background-color: rgba(255, 0, 0, 0.5); */
+        display: block;
+        width: 270px;
+        height: calc(100% - 160px);
+        background-image: url(../src/png/sliderCerca.svg);
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin-right: 20px;
+    }
+    .nav{
+        width: 100vw;
+        height: 80px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .logo{
+        position: absolute;
+        left: 50px;
+        height: 80px;
+        color: gainsboro;
+        font-size: 3em;
+        font-weight: bolder;
+        /* outline: 1px solid red; */
+        display: block;
+        z-index: 2;
+    }
+    .nav object{
+        /* outline: 1px solid red; */
+        position: absolute;
+        height: 50px;
+        right: 50px;
+        z-index: 2;
+    }
+    .edificio{
+        position: absolute;
+        height: 100vh;
+        top: 0;
+    }
+}
 /* @media screen and (min-width: 1024px) {}
 @media screen and (min-width: 1440px) {}
 @media screen and (min-width: 2560px) {} */
