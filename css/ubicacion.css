@@ -32,12 +32,12 @@
     z-index: 1;    
     width: 100%;
     height: 100%;
-    padding: 50px 7.5%;
+    padding: 50px 5%;
 }
 .flexRelleno{
     width: 100%;
     height: 500px;
-    padding: 7.5%;
+    padding: 5%;
     border-radius: 10px;
     border: 1px solid white;
     background-color: rgba(255, 255, 255, 0.1);
@@ -64,12 +64,12 @@
     .flexConteiner object{
         width: 50%;
         height: 100%;
-        padding: 7.5%;
+        padding: 5%;
     }
     .flexRelleno{
         width: 50%;
         height: 500px;
-        padding: 7.5%;
+        padding: 5%;
         border-radius: 10px;
         border: 1px solid white;
         background-color: rgba(255, 255, 255, 0.5);
