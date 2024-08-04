@@ -9,6 +9,7 @@
     font-optical-sizing: auto;
 }
 .relleno{
+    font-family: "Exo", sans-serif;
     width: 100vw;
     height: 100vh;
     background: #000;
