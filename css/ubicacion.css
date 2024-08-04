@@ -1,21 +1,36 @@
 .presentacion2{
     width: 100vw;
     min-height: 560px;
-    background-image: url(../src/fondoInver.png);
+    background-image: url(../src/fondoB.svg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: right top;
     background-color: #000;
+    position: relative;
+}
+.presentacion2::before{
+    content: "";
+    position: absolute;
+    width: 100vw;
+    min-height: 100%;
+    background-color: #21376F;
+    opacity: 0.5;
+    /* padding: 70px; */
+    
 }
 .flexConteiner{
+    width: 100vw;
+    min-height: 560px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     padding: 20px;
-
+    z-index: 1;    
 }
 .flexConteiner object{
+    position: relative;
+    z-index: 1;    
     width: 100%;
     height: 100%;
     padding: 50px 7.5%;
