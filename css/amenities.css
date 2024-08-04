@@ -34,10 +34,51 @@
     justify-content: center;
     align-items: center;
 }
-.amenitiesBtn{
-    width: 80px;
-    height: 80px;
-    background-color: rgba(0, 0, 0, 0.5);
+.amenitiesBtn{    
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: rgba(33, 55, 111, 1);
+    cursor: pointer;
+    transition: all 0.3s;
+    position: relative;
+    z-index: 2;
+}
+.amenitiesBtn::before{
+    content: "";
+    width: 101px;
+    height: 101px;
+    bottom: 0;
+    left: 0;
+    border-radius: 20px;
+    border: 1px solid  rgba(33, 55, 111, 1);
+    background-color: transparent;
+    cursor: pointer;
+    transition: all 0.5s;
+    position: absolute;
+    z-index: 1;
+}
+.amenitiesBtn:hover{
+    background-color: rgba(0, 0, 0, 1);
+}
+.piscina,.quincho,.coworking,.gimnasio{
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.piscina{
+    background-image: url(../src/icon/piscina.svg);
+}
+.quincho{
+    background-image: url(../src/icon/quincho.svg);
+}
+.coworking{
+    background-image: url(../src/icon/coworking.svg);
+}
+.gimnasio{
+    background-image: url(../src/icon/gimnasio.svg);
 }
 @media screen and (min-width: 768px) {}
 @media screen and (min-width: 1024px) {
