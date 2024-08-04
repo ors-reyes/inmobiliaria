@@ -1,0 +1,53 @@
+.presentacion2{
+    width: 100vw;
+    min-height: 560px;
+    background-image: url(../src/fondoInver.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-color: #000;
+}
+.flexConteiner{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+
+}
+.flexConteiner object{
+    width: 100%;
+    height: 100%;
+    padding: 50px 7.5%;
+}
+.flexRelleno{
+    width: 100%;
+    height: 500px;
+    padding: 7.5%;
+    border-radius: 10px;
+    border: 1px solid white;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+@media screen and (min-width: 768px) {
+    .flexConteiner{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .flexConteiner object{
+        width: 50%;
+        height: 100%;
+        padding: 7.5%;
+    }
+    .flexRelleno{
+        width: 50%;
+        height: 500px;
+        padding: 7.5%;
+        border-radius: 10px;
+        border: 1px solid white;
+        background-color: rgba(255, 255, 255, 0.5);
+    }
+}
+@media screen and (min-width: 1024px) {}
+@media screen and (min-width: 1440px) {}
+@media screen and (min-width: 2560px) {}
