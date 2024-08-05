@@ -80,7 +80,6 @@
 .gimnasio{
     background-image: url(../src/icon/gimnasio.svg);
 }
-@media screen and (min-width: 768px) {}
 @media screen and (min-width: 1024px) {
     .amenities{
         background-repeat: repeat;
@@ -94,5 +93,3 @@
         gap: 20px;
     }
 }
-@media screen and (min-width: 1440px) {}
-@media screen and (min-width: 2560px) {}
