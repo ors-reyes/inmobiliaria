@@ -130,7 +130,7 @@
     }
     .slider img{
         width: 100%;
-        max-height: 50%;
+        max-height: 80%;
         object-fit: contain;
     }
     .sliderBtn{

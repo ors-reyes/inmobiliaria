@@ -25,70 +25,50 @@
     justify-content: center;
     align-items: center;
     padding: 20px;
-    z-index: 1;    
+    z-index: 1;
 }
-.flexConteiner object{
+.item{
+    width: 100%;
+    height: 100%;
+}
+.item object{
     position: relative;
-    z-index: 1;    
+    z-index: 1;
     width: 100%;
     height: 100%;
     padding: 50px 5%;
 }
-.flexRelleno{
+.svgUbi{
     width: 100%;
-    height: 500px;
-    padding: 5%;
-    border-radius: 10px;
-    border: 1px solid white;
-    background-color: rgba(255, 255, 255, 0.1);
-}
-.divisoriaA{
-    width: 100%;
-    min-height: 100px;
+    min-height: 365px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.divisoriaA h2{
-    color: gainsboro;
-    padding: 20px;
-    text-align: center;
-    font-size: 1.5em;
+#ubi{
+    display: none;
+    opacity: 0;
 }
+.block{
+    display: block !important;
+    animation: opacitySVG 0.5s forwards;
+}
+@keyframes opacitySVG{0%{opacity: 0;}100%{opacity: 1;}}
+
 @media screen and (min-width: 768px) {
     .flexConteiner{
         display: flex;
         justify-content: center;
         align-items: center;
     }
-    .flexConteiner object{
+    .item{
         width: 50%;
-        height: 100%;
+        height: 50%;
+    }
+    .svgUbi{
+        min-height: 560px;
+    }
+    .item object{
         padding: 5%;
-    }
-    .flexRelleno{
-        width: 50%;
-        height: 500px;
-        padding: 5%;
-        border-radius: 10px;
-        border: 1px solid white;
-        background-color: rgba(255, 255, 255, 0.5);
-    }
-}
-@media screen and (min-width: 1024px) {}
-@media screen and (min-width: 1740px) {
-    .divisoriaA h2{
-        color: gainsboro;
-        padding: 20px;
-        text-align: center;
-        font-size: 2em;
-    }
-}
-@media screen and (min-width: 2560px) {
-    .divisoriaA h2{
-        color: gainsboro;
-        padding: 50px 20px;
-        text-align: center;
-        font-size: 2.5em;
     }
 }
