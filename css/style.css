@@ -11,6 +11,9 @@
     font-family: "Exo", sans-serif;
     font-optical-sizing: auto;
 }
+html, body{
+    scroll-behavior: smooth;
+}
 .relleno{
     font-family: "Exo", sans-serif;
     width: 100vw;
