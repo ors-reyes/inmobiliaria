@@ -1,6 +1,6 @@
 .amenities{
     width: 100%;
-    /* min-height: 100vh; */
+    position: relative;
     display: flex;
     gap: 100px;
     flex-wrap: wrap;
@@ -10,6 +10,29 @@
     background-size: contain;
     background-position: center;
     padding: 100px 0px;
+    padding-top: 250px;
+    padding-bottom: 250px;
+}
+.amenitiesTitle{
+    position: absolute;
+    top: 0;right: 0;
+    width: 100%;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(33, 55, 111, 0.5);
+    padding: 20px 80px;
+    border-radius: 0 0 0% 50%;
+}
+.amenitiesTitle h2{
+    text-align: center;
+    font-size: 2.5em;
+    /* color: #21376F; */
+    color: white;
+    padding: 10px;
+    font-weight: 900;
 }
 .amenitiesA{
     width: 100%;
@@ -80,10 +103,42 @@
 .gimnasio{
     background-image: url(../src/icon/gimnasio.svg);
 }
+.amenitiesTitleB{
+    position: absolute;
+    /* z-index: 1; */
+    bottom: 0;left: 0;
+    width: 100%;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: end;
+    background-color: rgba(33, 55, 111, 0.5);
+    padding: 20px 80px;
+    border-radius: 0 50% 0% 0%;
+}
+.amenitiesTitleB object{
+    max-width: 250px;
+    max-height: 150px;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+}
 @media screen and (min-width: 1024px) {
     .amenities{
         background-repeat: repeat;
         background-size: 50%;
+    }
+    .amenitiesTitle{
+        position: absolute;
+        top: 0;right: 0;
+        width: 50%;
+        height: 180px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(33, 55, 111, 0.5);
+        padding: 20px 80px;
     }
     .amenitiesA{
         width: 40%;
@@ -91,5 +146,30 @@
     }
     .amenities{
         gap: 20px;
+    }
+    .amenitiesTitleB{
+        position: absolute;
+        z-index: 1;
+        bottom: 0;left: 0;
+        width: 50%;
+        height: 180px;
+        background-color: rgba(33, 55, 111, 0.5);
+        /* padding: 20px 80px; */
+        border-radius: 0 50% 0% 0%;
+    }
+}
+
+@media screen and (min-width: 1440px){
+    .amenitiesTitle{
+        position: absolute;
+        top: 0;right: 0;
+        width: 50%;
+        height: 180px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(33, 55, 111, 0.5);
+        padding: 20px 80px;
     }
 }
